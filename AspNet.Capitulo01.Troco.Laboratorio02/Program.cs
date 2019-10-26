@@ -4,20 +4,16 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ex01_ImpactaAspNet.Capitulo01.Variaveis
-{
-    static class Program
-    {
+namespace AspNet.Capitulo01.Troco.Laboratorio02 {
+    static class Program {
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
         [STAThread]
-        static void Main()
-        {
+        static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VariaveisForm
-                ());
+            Application.Run(new TrocoForm());
         }
     }
 }
